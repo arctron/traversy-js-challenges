@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "100 JavaScript challeneges for you to solve",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },

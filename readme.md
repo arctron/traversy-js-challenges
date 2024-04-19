@@ -25,6 +25,7 @@ Some lessons/modules are not challenges, they are more like mini-lessons. I don'
 In order for the Jest tests to run, you need to rename the test file to `[name].test.js`. For example, if you are working on the `hello-world` challenge, you need to rename the `hello-world-test.js` file to `hello-world.test.js`. This is because Jest looks for files with the `.test.js` extension.
 
 Run the command `npm run test` from the root directory and it will run all the tests.
+If using ES6 modules, the command to run tests would be `node --experimental-vm-modules node_modules/jest/bin/jest.js`
 
 ## These Don't Have to be "Challenges"
 
@@ -36,7 +37,7 @@ You can use the tests to see if your code passes, but use the `run` files to run
 
 1. Clone the repo
 2. Run `npm install`
-3. Run `npm run test` to run the tests. Again, you will need to rename the test files and replace the `-test` with `.test` to run the tests.
+3. Run `npm run test` (or `node --experimental-vm-modules node_modules/jest/bin/jest.js` for ES6 modules) to run the tests. Again, you will need to rename the test files and replace the `-test` with `.test` to run the tests.
 
 ## Index of Challenges/Lessons
 
